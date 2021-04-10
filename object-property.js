@@ -21,8 +21,10 @@ console.log("Student Names:", studentName);
 const studentId = students.map(student => student.id);
 console.log("Student Ids:", studentId);
 
+// using filter
 const biggerId = students.filter(student => student.id > 113);
 console.log("Bigger ids:", biggerId);
 
+// using find
 const biggerOne = students.find(student => student.id > 113);
 console.log("Bigger One:", biggerOne);
